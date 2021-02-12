@@ -2,8 +2,9 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-  background:url("https://cdn.glitch.com/3d981884-5a78-4e61-9bfe-374ecf566552%2FIM000361.jpg?v=1612397407749");
+  margin-right: 18px;
+  background: url("https://cdn.glitch.com/3d981884-5a78-4e61-9bfe-374ecf566552%2FIM000361.jpg?v=1612397407749");
+  background-size: cover;
 }
 
 h1 {
@@ -12,28 +13,60 @@ h1 {
 }
 
 td {
-  background:black;
-  color:red;
-  border-radius:8px;
-  padding:2px;
+  background: black;
+  color: red;
+  border-radius: 8px;
+  padding: 2px;
 }
 
 a {
-  color:red;
+  color: red;
+  font-weight: bold;
+  border-radius: 12px;
+  text-align: center;
+  display: block;
 }
+a:hover {
+  color: gold;
+  display: block;
+  text-align: center;
+}
+
+img {
+  border: solid 5px;
+  border-radius: 12px;
+}
+
 table.main {
-  border:gold;
-  background:transparent;
-  align:"center";
+  border-color: gold;
+  background: transparent;
+  align: "center";
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .title {
-  font:65px;
-  color:red;
-  background:black;
-  width:50%;
-  border-radius:8px;
+  border: 5px solid red;
+  font-size: 30px;
+  color: red;
+  background: black;
+  width: 60%;
+  border-radius: 12px;
 }
-.big {font:30pt} 
 
+.big {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
 
+.blue {
+  width: 90%;
+  background-color: rgb(25, 229, 255, 0.8);
+  border-radius: 15px;
+}
