@@ -1,6 +1,9 @@
 This is an old website I made for a skateboard company over a decade ago-note the use of tables for layout...things are so much easier now :)
 
 
+The company owner inherited an existing family business in Quebec, so decided to close this company.   However, our main competitor(and friends) at Landyatchz are still going strong.
+
+
 
 
 Welcome to Glitch
