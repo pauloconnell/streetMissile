@@ -8,8 +8,12 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  border: 5px solid red;
+  font-size: 35px;
+  color: red;
+  background: black;
+  width: 50%;
+  border-radius: 12px;
 }
 
 td {
@@ -35,6 +39,7 @@ a:hover {
 img {
   border: solid 5px;
   border-radius: 12px;
+  
 }
 
 table.main {
@@ -51,12 +56,6 @@ textarea {
 }
 
 .title {
-  border: 5px solid red;
-  font-size: 30px;
-  color: red;
-  background: black;
-  width: 60%;
-  border-radius: 12px;
 }
 
 .big {
@@ -69,4 +68,42 @@ textarea {
   width: 90%;
   background-color: rgb(25, 229, 255, 0.8);
   border-radius: 15px;
+}
+.detail {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid red;
+}
+#blackout {
+    background-color:rgb(0,0,0,.5);
+    
+  }
+
+/* If the screen size is 601px or more, set the font-size  */
+@media only screen and (min-width: 601px) {
+  
+  h1 {
+    font-size:50px;
+  }
+  
+  a {
+    font-size: 30px;
+  }
+
+  .big {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .title {
+    border: 5px solid red;
+    font-size: 50px;
+    color: red;
+    background: black;
+    width: 60%;
+    border-radius: 12px;
+  }
+  
+
 }
